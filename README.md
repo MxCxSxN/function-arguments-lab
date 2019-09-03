@@ -241,7 +241,7 @@ is_cheaper(fork_fig, frontier_restaurant) # False
 
 
 
-    True
+    False
 
 
 
@@ -253,7 +253,7 @@ is_cheaper(frontier_restaurant, fork_fig) # True
 
 
 
-    False
+    True
 
 
 
@@ -305,7 +305,7 @@ high_rating(fork_fig, 5) # False
 
 
 ```python
-high_rating(frontier_restaurant, 4) # False
+high_rating(frontier_restaurant, 4) # True
 ```
 
 
